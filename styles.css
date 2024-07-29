@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0D99FF;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    padding: 20px;
+    background-color: #fff;
+    color: black;
+    text-align: left;
+}
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.back-button {
+    background-color: #0a0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    position: absolute;
+    top: 75px;
+    left: 20px;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.preview-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.preview-wrapper-plat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    margin-top: -20px;
+}
+
+.preview {
+    background-color: #FFCD29;
+    color: #000;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.preview-maze{
+    background-color: #FFCD29;
+    color: #000;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.preview-plat{
+    background-color: #FFCD29;
+    color: #000;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.preview img {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.previewimg {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.play-button {
+    background-color: #0a0;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    width: 200px;
+    text-align: center;
+}
+
+footer {
+    background-color: #13649F;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
